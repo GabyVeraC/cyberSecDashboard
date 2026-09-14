@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSec Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>CyberSec Dashboard</h1>
+        <p>Monitoramento de Segurança de Rede</p>
+    </header>
+
+    <main>
+        <nav>
+            <h2>Menu</h2>
+            <ul>
+                <li class="active">Dashboard</li>
+                <li>Monitoramento</li>
+                <li>Relatórios</li>
+                <li>Configurações</li>
+            </ul>
+        </nav>
+        <section>
+            <h2>Status de Rede</h2>
+
+            <div class="cards">
+                <article>
+                    <h3>Sistema</h3>
+                    <p class="status-ok">Operacional</p>
+                </article>
+                <article>
+                    <h3>Dispositivos</h3>
+                    <p>24</p>
+                </article>
+                <article>
+                    <h3>Conexões</h3>
+                    <p>156</p>
+                </article>
+                <article>
+                    <h3>Alertas</h3>
+                    <p class="status-alert">3</p>
+                </article>
+            </div>
+
+            <section class="alertas">
+                <h2>Alertas de Segurança</h2>
+
+                <div class="alerta">
+                    <strong>Alerta de rede</strong>
+                    <span>3 tentativas de acesso detectadas</span>
+                </div>
+
+                <div class="alerta">
+                    <strong>Firewall</strong>
+                    <span>Funcionando normalmente</span>
+                </div>
+
+                <div class="alerta">
+                    <strong>Monitoramento</strong>
+                    <span>Nenhuma ameaça crítica encontrada</span>
+                </div>
+                <div class="alerta alerta-perigo">
+                    <strong>Alerta de rede</strong>
+                    <span>3 tentativas de acesso detectadas</span>
+                </div>
+
+                <div class="alerta alerta-ok">
+                    <strong>Firewall</strong>
+                    <span>Funcionando normalmente</span>
+                </div>
+
+                <div class="alerta alerta-ok">
+                    <strong>Monitoramento</strong>
+                    <span>Nenhuma ameaça crítica encontrada</span>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
